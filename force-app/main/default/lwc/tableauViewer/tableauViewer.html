@@ -1,0 +1,14 @@
+<template>
+    <div class="root-container">
+        <template lwc:if={isInitializing}>
+            <lightning-spinner  variant="brand"></lightning-spinner>
+        </template>
+        <template lwc:if={hasError}>
+            <div class="slds-container_fluid error-message">
+                {errorMessage}
+            </div>
+        </template>
+        <div lwc:ref="tableauReportContainer" lwc:dom="manual"></div>
+    </div>
+
+</template>

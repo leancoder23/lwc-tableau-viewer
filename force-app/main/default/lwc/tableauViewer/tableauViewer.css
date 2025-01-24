@@ -1,0 +1,14 @@
+.root-container{
+    display:flex;
+    flex-direction: column;
+    min-height: 200px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.error-message{ 
+    padding: 10px;
+    background-color: lightsalmon;
+    text-align: center;
+    
+}

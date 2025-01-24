@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>62.0</apiVersion>
+    <isExposed>true</isExposed>
+    <masterLabel>Custom Tableau Viewer</masterLabel>
+    <targets>
+        <target>lightning__RecordPage</target>
+        <target>lightning__HomePage</target>
+    </targets>
+    <targetConfigs>
+        <targetConfig targets="lightning__RecordPage">
+            <property name="src" label="Tableau Dashboard or Report URL"  type="String" default=""></property>
+            <property name="height" label="Height" type="Integer" default="800"></property>
+             <property name="width" label="Width" type="Integer"></property>
+            <property name="hideToolbar" label="Hide toolbar"  type="Boolean" default="false"></property>
+            <property name="hideTab" label="Hide tab" type="Boolean" default="false"></property>
+            <property name="device" type="String" default="default" datasource="default,desktop,tablet,phone"></property>
+        </targetConfig>
+    </targetConfigs>
+</LightningComponentBundle>
