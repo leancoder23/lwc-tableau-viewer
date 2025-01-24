@@ -1,9 +1,9 @@
-#Summary
+## Summary
 
 A Lightning Web Component that provides a wrapper for Tableau Embedded UI JavaScript Library, enabling developers and admins to display Tableau reports (both from Tableau Cloud and Tableau Server) in Salesforce without requiring user to login into tableau environment.  
 
 
-#Description
+## Description
 
 The component implements Tableau Embedded API providing options for developer to integrate Tableau reports in salesforce programatically for enhanced integration scenarios which are not provided by standard Tableau Viewer Component.
 
