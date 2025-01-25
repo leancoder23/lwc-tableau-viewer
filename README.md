@@ -40,7 +40,7 @@ Create a tableauViewerSetting records at the orgnaization level and set the foll
 | Tableau User Name Field | Salesforce User Object Field API name which hold value of Tableau user name | 
 
 
-### User Permisions
+### User Permissions
 
 Add "Custom Tableau Viewer Permissionset" to the user which grant necessary permission to the specific user in addition to this make sure user also have read permission on the Salesforce User Object Field hold value of Tableau user name.
 
