@@ -14,7 +14,7 @@
              <property name="width" label="Width" type="Integer"></property>
             <property name="hideToolbar" label="Hide toolbar"  type="Boolean" default="false"></property>
             <property name="hideTab" label="Hide tab" type="Boolean" default="false"></property>
-            <property name="device" type="String" default="default" datasource="default,desktop,tablet,phone"></property>
+            <property name="device" label="Device" type="String" default="default" datasource="default,desktop,tablet,phone"></property>
         </targetConfig>
     </targetConfigs>
 </LightningComponentBundle>

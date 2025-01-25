@@ -44,6 +44,16 @@ Create a tableauViewerSetting records at the orgnaization level and set the foll
 
 Add "Custom Tableau Viewer Permissionset" to the user which grant necessary permission to the specific user in addition to this make sure user also have read permission on the Salesforce User Object Field hold value of Tableau user name.
 
+### Component attributes
+| Attribute | Description | Default |
+|-----------|-------------|---------|
+|Tableau Dashboard or Report URL| Valid URL of the dashboard or report user want to view | N/A |
+|Height|Height of the container component| 800 | 
+|Width|Width of the container component| N/A  | 
+|Hide toolbar| When set true then tableau toolbar will not be shown| false|
+|Hide tab| When set true then tableau dashboard or report tabs will not be shown| false|
+|Device| Applies provided device form factor|Desktop|
+
 
 ## Disclaimer
 
